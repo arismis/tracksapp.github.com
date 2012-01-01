@@ -4,7 +4,7 @@
   <title><![CDATA[Tracks]]></title>
   <link href="http://TracksApp.github.com/atom.xml" rel="self"/>
   <link href="http://TracksApp.github.com/"/>
-  <updated>2012-01-01T15:46:30+00:00</updated>
+  <updated>2012-01-01T19:45:05+00:00</updated>
   <id>http://TracksApp.github.com/</id>
   <author>
     <name><![CDATA[TracksApp]]></name>
@@ -12,5 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My article]]></title>
+    <link href="http://TracksApp.github.com/articles/comments/my-article/"/>
+    <updated>2012-01-02T00:00:00+00:00</updated>
+    <id>http://TracksApp.github.com/articles/comments/my-article</id>
+    <content type="html"><![CDATA[<p>This is my article</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Testing news page]]></title>
+    <link href="http://TracksApp.github.com/news/comments/happy-new-year/"/>
+    <updated>2012-01-01T00:00:00+00:00</updated>
+    <id>http://TracksApp.github.com/news/comments/happy-new-year</id>
+    <content type="html"><![CDATA[<p>This is my test.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[December]]></title>
+    <link href="http://TracksApp.github.com/articles/comments/december/"/>
+    <updated>2011-12-21T00:00:00+00:00</updated>
+    <id>http://TracksApp.github.com/articles/comments/december</id>
+    <content type="html"><![CDATA[<p>From December.</p>
+
+<p>And some more stuff.</p>
+]]></content>
+  </entry>
   
 </feed>
