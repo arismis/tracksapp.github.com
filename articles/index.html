@@ -9,7 +9,7 @@
   <meta name="author" content="TracksApp">
 
   
-  <meta name="description" content="This is my article">
+  <meta name="description" content="If you&#8217;re cloning or forking Tracks from GitHub, you might be interested in some changes you can make to your .bashrc to make using git a bit...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -68,7 +68,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/articles/comments/my-article/">My Article</a></h1>
+      <h1 class="entry-title"><a href="/articles/comments/making-yourself-comfortable-with-git-in-the-terminal/">Making Yourself Comfortable With Git in the Terminal</a></h1>
     
     
       <p class="meta">
@@ -82,14 +82,16 @@
 
 
 
-<time datetime="2012-01-02T00:00:00+00:00" pubdate  data-updated="true" >Jan 2<span>nd</span>, 2012</time>
+<time datetime="2009-01-15T00:00:00+00:00" pubdate  data-updated="true" >Jan 15<span>th</span>, 2009</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>This is my article</p>
+  <div class="entry-content"><p>If you&#8217;re cloning or forking Tracks from <a href="http://github.com/bsag/tracks/">GitHub</a>, you might be interested in some changes you can make to your .bashrc to make using git a bit more comfortable. Henrik over at The Pug Automatic posted <a href="http://henrik.nyh.se/2008/12/git-dirty-prompt">this tip</a> for putting both your current branch name on the command line, and also indicating whether you have any uncommitted changes in the branch. If your branch has uncommitted changes, it prints an asterisk after the branch name. This is incredibly helpful for seeing at a glance what state you are in, without having to issue the commands &#8216;git branch&#8217; or &#8216;git status&#8217;. If you flit about between branches a lot, having the branch name at the command prompt can save you from a great deal of trouble.</p>
+<p>You can grab Henrik&#8217;s code <a href="http://gist.github.com/31631">here</a>, or use mine below. I just foraged around among the forks and the comments on <a href="http://www.simplisticcomplexity.com/2008/03/13/show-your-git-branch-name-in-your-prompt/">this related post</a> to get a version combining the best bits of them all, then I substituted in my existing command prompt. Enjoy!</p>
+<script src="http://gist.github.com/47541.js"></script>
 </div>
   
   
@@ -102,7 +104,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/articles/comments/december/">December</a></h1>
+      <h1 class="entry-title"><a href="/articles/comments/morphexchange-tracks-as-a-hosted-service/">Morphexchange - Tracks as a Hosted Service</a></h1>
     
     
       <p class="meta">
@@ -116,16 +118,14 @@
 
 
 
-<time datetime="2011-12-21T00:00:00+00:00" pubdate  data-updated="true" >Dec 21<span>st</span>, 2011</time>
+<time datetime="2008-04-07T00:00:00+01:00" pubdate  data-updated="true" >Apr 7<span>th</span>, 2008</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>From December.</p>
-
-<p>And some more stuff.</p>
+  <div class="entry-content"><p>If you&#8217;d like to have a globally-accessible installation of Tracks, which you could access from any computer on the internet, but you either don&#8217;t have a web server, web host, or don&#8217;t want the hassle of installing it yourself, you could try <a href="http://www.morphexchange.com/">Morph eXchange</a>. The Morph Application Platform allows you to run certain Ruby on Rails applications as services. They have some services which require a paid subscription, but their Tracks service is free to use. All you need to do is go to the <a href="http://www.morphexchange.com/">homepage</a>, signup for an account, then under subscriptions you will see Tracks listed. Click subscribe, and you can launch Tracks and enter your data.</p>
 </div>
   
   
@@ -133,7 +133,794 @@
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/linking-actions-and-yojimbo-items/">Linking Actions and Yojimbo Items</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2006-12-04T00:00:00+00:00" pubdate  data-updated="true" >Dec 4<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>If, like me, you have the snippet manager <a href="http://barebones.com/products/yojimbo/index.shtml">Yojimbo</a>, you might be interested in a way to link actions to Yojimbo items. I often use this if I want to make extensive notes on an action, or if I want to update those notes frequently. It&#8217;s also handy if you want to keep login details close at hand for an action, but you don&#8217;t want to store passwords in plain text in Tracks.</p>
+<p>It&#8217;s very easy. In Yojimbo, select the item you want to link, then go to Edit &gt; Copy Item Link. Then switch to Tracks and click the edit button for the action you&#8217;re interested in. Paste the link you copied into the notes box, wrapped as a Textile link, like so (note that I&#8217;ve added spaces around the colon so that it renders properly on the page):</p>
+<pre>
+<code>
+"Yojimbo item" : x-yojimbo-item://A8A40A39-blah-blah
+</code>
+</pre>
+<p>When you update the action and open the notes field, you&#8217;ll find a clickable link that will open your Yojimbo item. It&#8217;s the kind of thing that&#8217;s crying out for an Applescript or a Quicksilver script to automate it, but it&#8217;s easy enough to do manually.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/all-in-one-installation-for-windows/">All-in-one Installation for Windows</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2006-07-22T00:00:00+01:00" pubdate  data-updated="true" >Jul 22<span>nd</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>For those of you on Windows who have been struggling with getting Tracks installed, Jim Strupp has kindly <a href="http://www.4shared.com/dir/950576/3127bee6/Tracks4Win.html">packaged up an installation</a> of Tracks which uses Uniform Server. Everything you need (except Ruby) is included, and it&#8217;s a simple double click on a batch file to start Tracks running. Give it a go! And many thanks to Jim for creating and hosting the package.</p>
+<p><strong>Updated 29-09-2006</strong>: Fixed the link to the installation.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/mongrel-and-windows/">Mongrel and Windows</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2006-06-03T00:00:00+01:00" pubdate  data-updated="true" >Jun 3<span>rd</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>mk sent me the following tip for people wanting to running Tracks on Windows using Mongrel as the webserver, rather than WEBrick, Apache or lighttpd:</p>
+<p>Installing mongrel (this would work for Linux and MacOS X users too):</p>
+<pre>
+<code>
+sudo gem install mongrel
+cd tracks_directory
+mongrel_rails start -d
+</code>
+</pre>
+<p>Running the service:</p>
+<pre>
+<code>
+mongrel_rails_service install -n tracks -r c:\path\to\tracks -p 4000 -e production
+mongrel_rails_service start -n tracks
+</code>
+</pre>
+<p>Now hit the port and poof, it works (or should). The application will stop if you use:</p>
+<pre>
+<code>
+mongrel_rails_service stop -n tracks
+</code>
+</pre>
+<p>Off course, you can control service at services in the control panel. I have it set to start on boot, and that&#8217;s it. Read more about <a href="http://mongrel.rubyforge.org/">Mongrel</a> or more about <a href="http://mongrel.rubyforge.org/docs/win32.html">Mongrel on Windows</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/installing-tracks-using-locomotiv/">Installing Tracks Using Locomotive</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2006-05-25T00:00:00+01:00" pubdate  data-updated="true" >May 25<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Jacken has a great and very simple tutorial for <a href="http://www.jackenhack.com/blog/archives/2006/05/25/gtd-ruby-on-rails-and-the-mac/">installing Tracks using Locomotive</a> for those of you on MacOS X. It&#8217;s a great (nearly) one-click install. Thanks, Jacken!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/emailing-upcoming-actions-to-yourself/">Emailing Upcoming Actions to Yourself</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2006-03-02T00:00:00+00:00" pubdate  data-updated="true" >Mar 2<span>nd</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://www.lukemelia.com/">Luke Melia</a> came up with an absolute gem of a tip on the <a href="http://rousette.org.uk/projects/news/33/tracks-discuss-mailing-list">tracks-discuss</a> mailing list. If you enter the following command in your crontab on the server which runs your copy of Tracks 1.04, it will email you a list of the upcoming actions which are due within the next 7 days every day at 6 am (the command should be on one line, without the backslashes):</p>
+<pre>
+<code>
+0 6 * * * /usr/local/bin/curl -0 http://[tracks_url]/feed/text/[username]/[your_token]?due=6 | /usr/bin/mail -E -s 'Tracks actions due in the next 7 days' youremail@yourdomain.com
+</code>
+</pre>
+<p>It&#8217;s easiest if you copy and paste the <span class="caps">URL</span> of the text feed from your feeds page. Of course you can choose any feed you like &mdash; why not email a list of next actions in a particular project to a group of colleagues who are working on the project?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/a-better-startup-item-for-mac-os-x-tiger/">A Better Startup Item for Mac OS X Tiger</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2005-10-04T00:00:00+01:00" pubdate  data-updated="true" >Oct 4<span>th</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Jeroen van der Ham has been hard at work improving the <a href="http://rousette.org.uk/projects/article/26/starting-tracks-at-login-with-mac-os-x-tiger">method for starting Tracks when you login</a> on Mac OS X Tiger, and has produced a .plist file which works on its own, without the need for a separate shell script file.</p>
+<p>You can download the single .plist file <a href="http://www.rousette.org.uk/projects/files/single_startup_item_for_tracks.zip">here</a>. Edit the file to put the full path to Tracks on your system under the &#8216;WorkingDirectory&#8217; item, and also edit the port number if you want to run Tracks on a port other than 3000. Then save the file in ~/Library/LaunchAgents, making the LaunchAgents directory if it doesn&#8217;t yet exist. That&#8217;s all there is to it! When you next login, Tracks will start automatically. If you want to start Tracks manually, use the following command in Terminal:</p>
+<pre>
+<code>
+launchctl load ~/Library/LaunchAgents/com.rousette.tracks.plist
+</code>
+</pre>
+<p>The same command with &#8216;unload&#8217; substituted for &#8216;load&#8217; stops Tracks. Thanks to Jeroen for some very neat work!</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/starting-tracks-at-login-with-mac-os-x-tiger/">Starting Tracks at Login With Mac OS X Tiger</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2005-07-09T00:00:00+01:00" pubdate  data-updated="true" >Jul 9<span>th</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Several people have asked me if there&#8217;s a way to start up Tracks on your own machine when it boots or when you login. The answer if you&#8217;re using Mac OS X Tiger is yes &#8212; there&#8217;s an easy way.</p>
+<p><strong><span class="caps">NOTE</span>:</strong> There&#8217;s now a <a href="http://getontracks.org/articles/comments/a-better-startup-item-for-mac-os-x-tiger">better way</a> to do this, which only involves one file.</p>
+<p>Tiger comes with a new system for starting, stopping and monitoring processes called <code>launchd</code>. I found the discussions on <a href="http://www.macosxhints.com/article.php?story=20050517210406483">MacOSXHints</a> and <a href="http://www.macgeekery.com/tips/all_about_launchd_items_and_how_to_make_one_yourself">Mac Geekery</a> very useful when I was putting this together, and both are well worth reading if you want to find out more about the capabilities for <code>launchd</code>. However, I thought I&#8217;d save you a bit of hassle by putting the files together myself.</p>
+<ul>
+	<li>Download the files <a href="http://www.rousette.org.uk/blog/projects/startup_items_for_tracks.zip">here</a> and unzip the package. You&#8217;ll find two files inside: <code>com.rousette.tracks.plist</code> and <code>start_tracks</code>.</li>
+	<li>You need to edit both (using a text editor) and replace &#8216;<span class="caps">YOURUSERNAME</span>&#8217; with your real user name. Unless your actual user name is &#8216;<span class="caps">YOURUSERNAME</span>&#8217; &#8212; some people have a funny sense of humour. You might also want to change the port in <code>start_tracks</code> from the default 3030 if you have another app running on that port.</li>
+	<li>Put the <code>start_tracks</code> file in <code>~/Library/Scripts/Applications/launchd</code>, making the folders if necessary.</li>
+	<li>Make sure <code>start_tracks</code> is executable by issuing this command in the Terminal:<br />
+<pre><br />
+<code>
+cd ~/Library/Scripts/Applications/launchd
+chmod +x start_tracks
+</code><br />
+</pre></li>
+	<li>Put the file <code>com.rousette.tracks.plist</code> in <code>~/Library/LaunchAgents</code>, again, making the folders if necessary.</li>
+</ul>
+<p>When you next log in, the WEBrick server should start automatically. If you want to start it manually now, run:</p>
+<pre>
+<code>
+launchctl load Library/LaunchAgents/com.rousette.tracks.plist
+</code>
+</pre>
+<p>or</p>
+<pre>
+<code>
+launchctl unload Library/LaunchAgents/com.rousette.tracks.plist
+</code>
+</pre>
+<p>to unload it. It seems that unloading the script doesn&#8217;t actually stop the server, so if you want to stop it, you&#8217;ll have to find the process ID and use that to kill it:</p>
+<pre>
+<code>
+ps ax | grep -i "ruby script/server" | grep -v grep | awk '{print $1}'
+</code>
+</pre>
+<p>then note the number you get back (let&#8217;s say it&#8217;s 1283)</p>
+<pre>
+<code>
+kill 1283
+</code>
+</pre>
+<p>This method starts the server at user login, and doesn&#8217;t restart the server if it crashes or is stopped for some other reason. If you want to start the server when the computer boots, put the plist file in the root level Library folder (i.e. <code>/Library/LaunchAgents</code>), and put the <code>start_tracks</code> file in somewhere like <code>/usr/local/bin</code>. If you want the server to re-launch automatically when it gets killed, take a look at the manpage for launchd.plist. I think that it would probably work if you replace the <code>RunAtLoad</code> parameter with <code>OnDemand</code>, which should be set to false &#8212; but I haven&#8217;t tested that.</p>
+<p>This method has started up WEBrick, but you could easily adapt it by replacing the command starting WEBrick in <code>start_tracks</code> with one starting lighttpd.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/tracks-on-windows-xp-tutorial/">Tracks on Windows XP Tutorial</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2005-05-26T00:00:00+01:00" pubdate  data-updated="true" >May 26<span>th</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>John Leonard has written up a <a href="http://www.jjleonard.co.uk/?p=102">fantastic tutorial</a> for getting Tracks running on Windows XP, including using a package called <a href="http://www.uniformserver.com/">Uniform Server</a> which provides  a web server and MySQL among other things. There&#8217;s also a full <a href="http://www.jjleonard.co.uk/tracks/tracksinstall.html">video tutorial</a> with notes to make the whole process crystal clear.</p>
+<p>Yay John! I love it when users help other users out.</p>
+<p><strong>Updated 25/10/2005</strong> to link to John&#8217;s new and updated version of the tutorial that works with Tracks 1.03.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/movies-of-new-ajax-features/">Movies of New Ajax Features</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2005-05-23T00:00:00+01:00" pubdate  data-updated="true" >May 23<span>rd</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>With <a href="http://dev.rousette.org.uk/changeset/82">revision 82</a>, I&#8217;ve finally nearly finished the conversion of Tracks to use Ajax for creating, updating, deleting and marking actions done. I thought I&#8217;d put a couple of little movies up as a teaser.</p>
+<p>The first shows me <a href="http://www.rousette.org.uk/projects/images/Editing_projects.mov">editing the list of projects</a> [1 MB], and the second shows me <a href="http://www.rousette.org.uk/projects/images/Adding_to_project.mov">adding and editing</a> actions in a project [2 MB].</p>
+<p>It&#8217;s still a bit rough around the edges; actions don&#8217;t sort properly, nor does the badge with the count of actions update until you refresh, and I haven&#8217;t quite sorted out the tab index on Safari. However, generally it&#8217;s coming along quite nicely.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/fix-for-running-tracks-101-under-rails-0100/">Fix for Running Tracks 1.01 Under Rails 0.10.0</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2005-03-06T00:00:00+00:00" pubdate  data-updated="true" >Mar 6<span>th</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Rails 0.10.0 introduced a new &mdash; and very simple &mdash; method of <a href="http://weblog.rubyonrails.com/archives/2005/02/24/rails-0100-routing-web-services-components-oracle/">re-writing URLs</a>, which works with a variety of different servers, and means that the Rails app itself can be hold the re-writing rules, without having to mess about with .htaccess and the like.</p>
+<p>However, it does require some changes to be made to Rails apps, and these <strong>aren&#8217;t</strong> present in Tracks 1.01. Needless to say, I&#8217;ve made the requisite changes to the next version which is in development (and they work really well!), but if you&#8217;ve got Rails 0.10.0 installed and want to use Tracks 1.01, you&#8217;ll have to make the following fix.</p>
+<p>You need to force Tracks to use the previous versions of the gems before the Rails 0.10.0 update. If you&#8217;ve only installed one version of Rails, then you might have to uninstall it and install an earlier version.</p>
+<pre>
+<code>gem install Rails -v 0.9.5</code>
+</pre>
+<p>Otherwise, run gem list at the command line and take a look at the versions of all the required components prior to Rails 0.10.0. Then in tracks/config/environment.rb replace these lines:</p>
+<pre>
+<code>
+require 'rubygems'
+require_gem 'activerecord'
+require_gem 'actionpack'
+require_gem 'actionmailer'
+require_gem 'rails'
+</code>
+</pre>
+<p>with these:</p>
+<pre>
+<code>
+require 'rubygems'
+require_gem 'activerecord', '&lt;= 1.6.0'
+require_gem 'actionpack', '&lt;= 1.4.0'
+require_gem 'actionmailer', '&lt;= 0.6.1'
+require_gem 'rails', '&lt;= 0.9.5'
+</code>
+</pre>
+<p>substituting the actual version numbers you found from gem list.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/installing-tracks-on-dreamhost/">Installing Tracks on Dreamhost</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2005-02-22T00:00:00+00:00" pubdate  data-updated="true" >Feb 22<span>nd</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>qDot wrote up a really <a href="http://www.numberporn.com/archives/000118.php">nice tutorial</a> on how to install Ruby, Rails and Tracks on Dreamhost. It would probably also be a good guide for anyone else who is hosted on a server where Ruby isn&#8217;t already installed. However &mdash; and I feel a bit like a kids TV presenter saying that you should get an adult to help you with the cutting out &mdash; do ask your host first if they would mind you doing this. I don&#8217;t want to be responsible for anyone being booted off their server!</p>
+<p>Note also that step 1 of installing Tracks isn&#8217;t necessary as of Tracks 1.01; Redcloth is distributed with the application.</p>
+<p>Thanks, qDot!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/lighttpd-rails-and-tracks/">Lighttpd, Rails and Tracks</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2005-02-18T00:00:00+00:00" pubdate  data-updated="true" >Feb 18<span>th</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>[Posted to both here and on <a href="http://www.rousette.org.uk/blog/">But She&#8217;s a Girl&#8230;</a>]</p>
+<p>Jason, of <a href="http://textdrive.com/">TextDrive</a> fame, has been <a href="http://textdrive.com/weblog/article/26/benchmarking-lighttpd">singing</a> <a href="http://textdrive.com/weblog/article/27/yep-i-would-switch">the</a> <a href="http://textdrive.com/weblog/article/31/having-ones-own-lighttpd-and-running-it-too">praises</a> of <a href="http://lighttpd.net/">lighttpd</a> recently. In my experience, when Jason sings about something techie, it&#8217;s worth listening.</p>
+<p>A week or so ago, the Apache installation I use to test Tracks locally abruptly stopped working. I&#8217;m pretty sure that I just messed something up in my httpd.conf, but my motivation to go through it, find the problem and fix it was seriously lacking. So given all the great press that lighttpd has been getting, I thought I&#8217;d have a go at installing it on my machine last night.</p>
+
+<p>It wasn&#8217;t a very difficult process, but I ended up having to try to compile it a couple of times. The first time, I neglected to notice the part of the instructions <a href="http://wiki.rubyonrails.com/rails/show/Lighttpd">here</a> that said you needed pcre installed. Then I came up against a maddening error during <code>make</code> that I couldn&#8217;t fix until I came upon this <a href="http://theexciter.com/archives/2005/02/09/installing-lighttpd-1310-on-osx/">excellent tutorial</a> by Johan on installing on OS X. He found the same error as me, but had made a patch to fix the problem. Bingo? &#8212; everything ran smoothly from then on.</p>
+<p>Getting a working lighttpd.conf file was the next hurdle, but after some guidance <a href="http://bougyman.com/miscfiles/RailsonDebian.html">here</a> and a dash of trial and error, I managed to get Tracks running stably and beautifully on lighttpd. And fast. Boy, is lighttpd fast. I always found Apache to be really sluggish on my machine, but lighttpd running <span class="caps">FCGI</span> is really nippy and very economical on system resources.</p>
+<p>So (as much for the fact that I&#8217;ll probably forget what I did as anything else), here&#8217;s my lighttpd.conf, set up to run a localhost install of Tracks on port 3000. At some point this weekend, I&#8217;ll try setting it up for an externally-accessible configuration. The re-write rules were probably the hardest thing to sort out, but with the the advent of <a href="http://weblog.rubyonrails.com/archives/2005/02/15/routing-now-available-in-beta-gems/">Routing</a> in Rails which will make re-writing URLs a piece of cake &mdash; but more importantly, an <em>internal</em> piece of cake &mdash; so that they can be distributed inside Rails apps and will Just Work with whatever server you choose to use. I&#8217;m looking forward to that.</p>
+
+<pre>
+<code>
+# lighttpd.config for Tracks on localhost, port 3000
+# I put this file in /etc/lighttpd.conf, then run lighttpd with:
+# % sudo /usr/local/sbin/lighttpd -f /etc/lighttpd.conf
+#
+# Assumes that tracks is here:
+# /Users/username/Sites/tracks
+#
+# You also need to create the logs lighttpd.error.log and 
+# lighttpd.access.log within tracks/log, as well as the directory
+# ~/var/run for the PID file (this holds the PID of the currently
+# running instance of lighttpd, so that you can automate stopping it).
+
+
+server.modules = (
+  "mod_rewrite",
+# "mod_redirect",
+  "mod_access",
+# "mod_auth",
+  "mod_status",
+  "mod_fastcgi",
+# "mod_simple_vhost",
+# "mod_evhost",
+  "mod_cgi",
+# "mod_compress",
+# "mod_ssi",
+# "mod_usertrack",
+# "mod_rrdtool",
+  "mod_accesslog"
+)
+
+# You would change this to 80 for an production site
+server.port = 3000
+# This would be my.greatdomain.com for a production site
+server.bind = "127.0.0.1"
+server.pid-file = "/Users/username/var/run/lighttpd.pid"
+server.document-root = "/Users/username/Sites/tracks/public"
+server.errorlog = "/Users/username/Sites/tracks/log/lighttpd.error.log"
+accesslog.filename = "/Users/username/Sites/tracks/log/lighttpd.access.log"
+
+#### Visit http://127.0.0.1:3000/server-status to see lighttpd status
+status.status-url = "/server-status"
+
+# files to check for if .../ is requested
+server.indexfiles = ( "index.php", "index.html", 
+     "index.htm", "default.htm" )
+
+## deny access the file-extensions
+#
+# ~    is for backupfiles from vi, emacs, joe, ...
+# .inc is often used for code includes which should in general not be part
+#      of the document-root
+url.access-deny             = ( "~", ".inc" )
+
+
+# You need to let Ruby handle .rb, .cgi and .fcgi files
+cgi.assign = ( ".rb"  =&gt; "/usr/local/bin/ruby",
+               ".cgi" =&gt; "/usr/local/bin/ruby",
+               ".fcgi" =&gt; "/usr/local/bin/ruby" )
+
+# 5 .fcgi spawns seem to work fine for a reasonable load                
+fastcgi.server = ( 
+  ".fcgi" =&gt;
+    ("127.0.0.1" =&gt;
+      ("socket" =&gt; "/tmp/rails.socket",
+       "bin-path" =&gt; "/Users/username/Sites/tracks/public/dispatch.fcgi")
+    ),
+    
+  ".fcgi" =&gt;
+    ("127.0.0.1" =&gt;
+      ("socket" =&gt; "/tmp/rails1.socket",
+       "bin-path" =&gt; "/Users/username/Sites/tracks/public/dispatch.fcgi")
+    ),
+    
+  ".fcgi" =&gt;
+    ("127.0.0.1" =&gt;
+      ("socket" =&gt; "/tmp/rails.socket",
+       "bin-path" =&gt; "/Users/username/Sites/tracks/public/dispatch.fcgi")
+    ),
+    
+  ".fcgi" =&gt;
+    ("127.0.0.1" =&gt;
+      ("socket" =&gt; "/tmp/rails.socket",
+       "bin-path" =&gt; "/Users/username/Sites/tracks/public/dispatch.fcgi")
+    ),
+    
+  ".fcgi" =&gt;
+    ("127.0.0.1" =&gt;
+      ("socket" =&gt; "/tmp/rails.socket",
+       "bin-path" =&gt; "/Users/username/Sites/tracks/public/dispatch.fcgi")
+    ),                 
+
+# Rewriting rules. First one is the default URL for http://127.0.0.1:3000/
+# Backslashes are continued lines, broken for display purposes.
+url.rewrite = 
+ ("^/$"   =&gt;  "/dispatch.fcgi?controller=todo&amp;action=list", 
+         "^/([-_a-zA-Z0-9]+)/([-_a-zA-Z0-9]+)/([-_a-zA-Z0-9%]+)$" 
+      =&gt; "/dispatch.fcgi?controller=$1&amp;action=$2&amp;id=$3", 
+          "^/([-_a-zA-Z0-9]+)/([-_a-zA-Z0-9]+)$"  
+      =&gt; "/dispatch.fcgi?controller=$1&amp;action=$2")
+
+# mimetype mapping
+mimetype.assign            = (
+  ".pdf"          =&gt;      "application/pdf",
+  ".sig"          =&gt;      "application/pgp-signature",
+  ".spl"          =&gt;      "application/futuresplash",
+  ".class"        =&gt;      "application/octet-stream",
+  ".ps"           =&gt;      "application/postscript",
+  ".torrent"      =&gt;      "application/x-bittorrent",
+  ".dvi"          =&gt;      "application/x-dvi",
+  ".gz"           =&gt;      "application/x-gzip",
+  ".pac"          =&gt;      "application/x-ns-proxy-autoconfig",
+  ".swf"          =&gt;      "application/x-shockwave-flash",
+  ".tar.gz"       =&gt;      "application/x-tgz",
+  ".tgz"          =&gt;      "application/x-tgz",
+  ".tar"          =&gt;      "application/x-tar",
+  ".zip"          =&gt;      "application/zip",
+  ".mp3"          =&gt;      "audio/mpeg",
+  ".m3u"          =&gt;      "audio/x-mpegurl",
+  ".wma"          =&gt;      "audio/x-ms-wma",
+  ".wax"          =&gt;      "audio/x-ms-wax",
+  ".ogg"          =&gt;      "audio/x-wav",
+  ".wav"          =&gt;      "audio/x-wav",
+  ".gif"          =&gt;      "image/gif",
+  ".jpg"          =&gt;      "image/jpeg",
+  ".jpeg"         =&gt;      "image/jpeg",
+  ".png"          =&gt;      "image/png",
+  ".xbm"          =&gt;      "image/x-xbitmap",
+  ".xpm"          =&gt;      "image/x-xpixmap",
+  ".xwd"          =&gt;      "image/x-xwindowdump",
+  ".css"          =&gt;      "text/css",
+  ".html"         =&gt;      "text/html",
+  ".htm"          =&gt;      "text/html",
+  ".js"           =&gt;      "text/javascript",
+  ".asc"          =&gt;      "text/plain",
+  ".c"            =&gt;      "text/plain",
+  ".conf"         =&gt;      "text/plain",
+  ".text"         =&gt;      "text/plain",
+  ".txt"          =&gt;      "text/plain",
+  ".dtd"          =&gt;      "text/xml",
+  ".xml"          =&gt;      "text/xml",
+  ".mpeg"         =&gt;      "video/mpeg",
+  ".mpg"          =&gt;      "video/mpeg",
+  ".mov"          =&gt;      "video/quicktime",
+  ".qt"           =&gt;      "video/quicktime",
+  ".avi"          =&gt;      "video/x-msvideo",
+  ".asf"          =&gt;      "video/x-ms-asf",
+  ".asx"          =&gt;      "video/x-ms-asf",
+  ".wmv"          =&gt;      "video/x-ms-wmv"
+ )
+# Use the "Content-Type" extended attribute to obtain mime type if possible
+# mimetypes.use-xattr = "enable"
+</code>
+</pre></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/making-tracks-publicly-accessible/">Making Tracks Publicly Accessible</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2005-02-12T00:00:00+00:00" pubdate  data-updated="true" >Feb 12<span>th</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>Updated to include corrections from commenters 19/02/2005</strong></p>
+<p>A couple of people have asked on the <a href="http://www.rousette.org.uk/projects/wiki/doku.php?id=chat">wiki</a> how you set up Tracks so that you can access it from other computers. The answer depends a little on how you have your computer networked, and on the platform you are running on.</p>
+<p><del>One thing you <em>can&#8217;t</em> do, as far as I know, is use WEBrick to access Tracks remotely.</del> WEBrick runs on localhost (127.0.0.1) by default and so you can only access it from the computer on which it&#8217;s running, but it is possible to use it on interfaces other than localhost (see comment 2 below for instructions). Otherwise, you&#8217;ll need to run a full web server like <a href="http://httpd.apache.org/download.cgi">Apache</a> or <a href="http://www.rousette.org.uk/projects/article/15/lighttpd-rails-and-tracks">lighttpd</a>. <del>Since Apache doesn&#8217;t run on Windows (yet), you Windows folks are not going to get much out of this article, as I&#8217;ll be describing the procedure using Apache. However, if anyone out there has experience of setting up a Rails-compatible server on Windows, send me a note and I&#8217;ll document it here.</del> Apache <strong>does</strong> run on Windows, and there&#8217;s a nice bundle available called <a href="http://www.apachefriends.org/cmsclick.php?id=296"><span class="caps">XAMPP</span></a> which will give you Apache, MySQL, <span class="caps">PHP</span> and lots of other great stuff in one easy to install package.</p>
+<p>Setting up Apache isn&#8217;t something I&#8217;ll cover in detail. There&#8217;s plenty of documentation on the Apache site, and many *nix based distributions come with it pre-installed. If you&#8217;re on MacOS X, it&#8217;s very easy. Just go to System Preferences &gt; Sharing and check the box next to &#8216;Personal Web Sharing&#8217;. After a few seconds, you&#8217;ll get confirmation of the <span class="caps">URL</span> from which you can access your sites at the bottom of the window. Try using it to make sure that you get the default index.html welcome message, showing that Apache is working.</p>
+<p>Now the tricky part is the IP address of your machine. If you&#8217;re running it on a machine which has a stable domain name, there&#8217;s no problem; you just enter <code>http://your.domain.tld/</code> as the first part of the <span class="caps">URL</span>. However, if like most people you&#8217;re using a computer on a cable or <span class="caps">ADSL</span> modem, you probably just have an IP address, which is likely to be assigned dynamically, and will therefore change over time. Worse, you might be using a router or an Airport Base Station which is distributing local IP addresses (like 10.0.&#215;.x or 192.168.&#215;.x) to the machines on the local network. That means that it&#8217;s going to be difficult to access from outside your network. In the case of machines sitting behind a router, I think it is possible to tunnel connections through to local IP addresses (so that a call to the external IP gets routed to an internal IP), but it&#8217;s complicated and can compromise the security of your network. You&#8217;d probably be better off thinking about getting your Tracks installation hosted by a hosting company in that case.</p>
+<p>If you have a dynamic IP which isn&#8217;t a local one, you can use <a href="http://www.dyndns.org/services/dyndns/">DynDNS</a> to help you track the changing IP address so that you can always connect to your computer remotely. I haven&#8217;t tried it myself, but I&#8217;ve heard that it works quite well.</p>
+<p>If you have a static IP, there shouldn&#8217;t be any problems. First, you need to make sure that your Apache config file (<code>/etc/httpd/httpd.conf</code> on MacOS X) is set up to handle .cgi files. Somewhere in the config file, make sure that you have this line:</p>
+<pre>
+<code>AddHandler cgi-script .cgi</code>
+</pre>
+<p>You&#8217;ll probably find that the line is in there but commented out with #; just remove the #, save the file and restart Apache, and you should be fine. Then you need to make a few other changes to httpd.conf and .htaccess (in tracks/public) to make things run smoothly. There&#8217;s a very clear explanation <a href="http://wiki.rubyonrails.com/rails/show/Non+VHost+Installation">here</a>. The crucial step is making sure that you make an alias which points to the public directory within the tracks directory. You might find it easier to use what&#8217;s called a VHost installation, in which case follow the instructions at the bottom of <a href="http://wiki.rubyonrails.com/rails/show/GettingStartedWithRails">this page</a>.</p>
+<p>It&#8217;s worth checking tracks/log/apache.log if you encounter errors to try to debug it. One last thing: by default, the setup runs in &#8216;development&#8217; mode, which means that you don&#8217;t have to restart the server to see changes as a result of editing the source code. This is fine for development, but it&#8217;s a bit slower. Once you&#8217;ve got things set up, you probably want to change a line in tracks/config/environment.rb. Change line 2 in that file from:</p>
+<pre>
+<code>RAILS_ENV  = ENV['RAILS_ENV'] || 'development'</code>
+</pre>
+<p>to</p>
+<pre>
+<code>RAILS_ENV  = ENV['RAILS_ENV'] || 'production'</code>
+</pre>
+<p>I&#8217;ll probably make this the default in future releases.</p>
+<p>Well, I hope that this brief explanation helps a little. I would say that running your own externally accessible server isn&#8217;t trivial, and you do have to worry about the security of your machine, and of course make sure that it&#8217;s running all the time. For many people (particularly those like me who are behind a router), it makes much more sense to find a good web host who will take care of all those worries for you. I host my own working Tracks installation on <a href="http://textdrive.com/">TextDrive</a>, and I recommend them unreservedly.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/articles/comments/the-road-to-tracks-11/">The Road to Tracks 1.1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2005-01-15T00:00:00+00:00" pubdate  data-updated="true" >Jan 15<span>th</span>, 2005</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>It&#8217;s funny, but there&#8217;s nothing quite like actually using your own application day-in, day-out to give you ideas for improvements and new features. I installed Tracks on a server (at <a href="http://www.textdrive.com">TextDrive</a>), and I&#8217;ve been using it every day as my only &#8216;to do&#8217; list. This experience has been surprisingly positive, but it has certainly highlighted the things which are missing or not done quite right. Other users have also been coming up with some great feature ideas and suggestions, so I thought I&#8217;d bring these together and discuss where I see Tracks going over the months ahead. This isn&#8217;t an exhaustive list by any means&#8230;</p>
+<h4>The big picture</h4>
+<p>I had two original reasons for developing Tracks. The first was that I wanted to learn <a href="http://ruby-lang.org/en/">Ruby</a> and <a href="http://www.rubyonrails.com/">Rails</a>, and I&#8217;ve always found it easier to learn programming with real-world examples. In many ways, I think it&#8217;s like learning any foreign language; you can read all the books you like, but you really start learning when your scooter breaks down on the way to Luca and you have to explain &#8212; in Italian &#8212; to the person who stops to help that you think the spark plugs are gunked up.</p>
+<p>The second reason was that I had just read David Allen&#8217;s <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0749922648/butshesagirl-21">Getting Things Done</a>, and I was keen to put the theory into practice. I tried a number of todo-style applications, as well as hand-rolled text files and scripts, but nothing quite hit the spot for me. So when I started designing Tracks, I had the <span class="caps">GTD</span> method firmly in mind. That doesn&#8217;t mean that I&#8217;m slavishly attached to one way of doing things (in fact, <span class="caps">GTD</span> itself is quite flexible in this respect), but I do think that ease of use and speed are vital. If it takes more than a few clicks to add a next action, that&#8217;s too much effort. I can see that some improvements could be made here, but my experience so far is that it&#8217;s not bad. I keep the &#8216;home page&#8217; for tracks (todo/list) open in a tab in OmniWeb all the time, and when I want to add something, I just need to switch to the tab, type in a brief phrase for the description, choose a context from the list and hit return (few of my NAs have due dates). As a sidenote for other Quicksilver users, I&#8217;ve also taken to pasting the <span class="caps">URL</span> of any associated files into the notes field, using Redcloth to make it into a link &#8212; you just need to find the file in Quicksilver then type &#8216;GU&#8217; to select the action &#8216;Get file <span class="caps">URL</span>&#8217;, and you can then drag the link onto the notes field to form an <span class="caps">URL</span>. This makes it easy to locate files when you come to actually process the action.</p>
+<p>I&#8217;ve got lots of ideas for new features, but I don&#8217;t want to bloat the application or clutter the interface. That&#8217;s why I&#8217;m planning that any substantial new bits of functionality &#8212; particularly if they require a new chunk of user interface &#8212; can be enabled and disabled in the settings file. If you don&#8217;t need that feature, you don&#8217;t have to see it.</p>
+<h4>The boring bits</h4>
+<p>This will probably brand me forever as a &#8216;not a real programmer&#8217;, but I find writing error checking routines and bits of validation code boring. I know they are necessary, but I&#8217;m always wistfully thinking about all the new, exciting and shiny things I could be coding instead. Still &#8212; like eating spinach &#8212; it has to be done. So a big priority is going to be to do a lot more validation of the data that users enter, automatic checking of what database format they are using and so on, so that Tracks &#8216;just works&#8217; transparently. When a problem can&#8217;t be fixed automatically, I need to generate more informative error messages. A good example of this would be the settings.yml file. <span class="caps">YAML</span> (the language) is rather fussy about the format of the file. <a href="http://www.rousette.org.uk/projects/article/9/#c000025">Arnaud</a> ran into this problem, and it was tricky to diagnose. A method which automatically checked the format of the file before trying to load it and generated an message that there was a problem with the format of the file would save a lot of time.</p>
+<h4>More flexibility</h4>
+<p>There needs to be more flexibility in the way that data is displayed. I had a request to be able to sort the display of contexts. Currently, they are just sorted in the order in which you added them (for me, this happens to be alphabetical order!). I think it would be nice to be able to sort them in an arbitrary order, perhaps with the context you use most frequently at the top. So I&#8217;m planning to provide a &#8216;move up/move down&#8217; button to each item on context/list to allow arbitrary sorting, which will also be reflected on the main page. While I&#8217;m at it, I might as well do something similar for projects.</p>
+<p>I&#8217;d also like to prevent some contexts from being shown on the front page. For example, I&#8217;d like to have a &#8216;wish list&#8217; context, in which I could jot down books, CDs, DVDs or gifts I&#8217;d like to buy for other people. But I don&#8217;t want that cluttering up the main page; if I could add those items quickly on the main page, and then view them later using a bookmark, that would be perfect. I could do this with another field for each item which indicates whether or not you want to see it on the main page.</p>
+<h4>Dealing with the future</h4>
+<p><a href="http://www.rousette.org.uk/projects/wiki/doku.php?id=chat">Pedro</a> made a comment about sorting by due date that I found quite interesting. He said that he would like to be able to sort by due date, because he often enters NAs which have due dates months ahead and he doesn&#8217;t want to see them first on his list. At first, I resisted the idea because I feel strongly that due dates should only be one aspect of the importance of an item. I only use them myself when there would be no point at all in doing that action after that date. For example, if I&#8217;m going to give a talk at a conference on a certain date, then there&#8217;s no point in writing my talk <em>after</em> that date.</p>
+<p>However, when I thought about it more, I realised that he had a good point. One of the strengths of the <span class="caps">GTD</span> approach is that you can capture <em>everything</em> you have on your mind in a safe place, and thus stop sub-consciously worrying about it. Some of those things &#8212; whether they have a due date or not &#8212; might not come into play until some time later. You don&#8217;t really want them cluttering up your list now, but you do want to be reminded about them at the appropriate time. That made me think about the idea of a &#8216;tickler file&#8217;, in which you can put things to be reminded about in the future. You could add an action and ask to be reminded about it on 1st March 2005. The action would then be held in a &#8216;Tickler&#8217; context (not shown on the main page) until 1st March, at which point it would turn up in the appropriate context on the main page (and perhaps highlighted somehow, so that you notice its arrival).</p>
+<h4>Reporting</h4>
+<p>I find the growing list of completed items very satisfying. But it would be nice to be able to generate some kind of report &#8212; perhaps on a weekly basis &#8212; of what was completed, and what is still to do. From my own experience, I know that if the report also listed how long uncompleted actions had been sitting around unattended, it would be quite informative (or perhaps &#8216;shocking&#8217; is a better word), and might help give me the kick I sometimes need to move forward. If nothing else, identifying items which have been hanging arond gathering dust often tells you that you haven&#8217;t really identified what the very next action is. In the long term, I&#8217;d like to produce fancy graphs of performance, and archive monthly or yearly reports of activity, but this would be a nice first step.</p>
+<h4>Shiny new features</h4>
+<p>One thing I&#8217;m missing a lot at the moment is a view of my appointments today. I use iCal, and I can easily switch to see it, but it would be much slicker to be able to see the &#8216;hard landscape&#8217; of my appointments in a simple list on the main page. iCal (and some other calendar applications) use the text-based <span class="caps">VCARD</span> format, so it should be possible to suck that information in. If you could also <em>add</em> appointments, that would be super-cool, but I don&#8217;t want to get too carried away. I read an article about <a href="http://photodude.com/article/2606/webbin-up">Webbin&#8217; up</a> by Reid, and was inspired by the idea of having todos, email, calendar and notes all on (or linked to on) one page. Keeping it simple, fast and uncluttered would be the trick, though.</p>
+<p>I hope that gives you some idea of the directions I&#8217;m thinking about. As ever, if you&#8217;ve got any ideas or suggestions, feel free to comment here, on the <a href="http://www.rousette.org.uk/projects/wiki/">wiki</a> or by email (butshesagirl at this domain).</p></div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
+    
+      <a class="prev" href="/blog/page/2/">&larr; Older</a>
     
     <a href="/articles/archives">Articles Archives</a>
     
@@ -146,15 +933,23 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/articles/comments/my-article/">My article</a>
-      </li>
-    
-      <li class="post">
         <a href="/news/comments/happy-new-year/">Testing news page</a>
       </li>
     
       <li class="post">
-        <a href="/articles/comments/december/">December</a>
+        <a href="/articles/comments/making-yourself-comfortable-with-git-in-the-terminal/">Making yourself comfortable with git in the terminal</a>
+      </li>
+    
+      <li class="post">
+        <a href="/articles/comments/morphexchange-tracks-as-a-hosted-service/">Morphexchange - Tracks as a hosted service</a>
+      </li>
+    
+      <li class="post">
+        <a href="/articles/comments/linking-actions-and-yojimbo-items/">Linking actions and Yojimbo items</a>
+      </li>
+    
+      <li class="post">
+        <a href="/articles/comments/all-in-one-installation-for-windows/">All-in-one installation for Windows</a>
       </li>
     
   </ul>

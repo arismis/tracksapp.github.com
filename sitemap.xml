@@ -1,24 +1,100 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://TracksApp.github.com/articles/comments/december/</loc>
-        <lastmod>2012-01-01T19:29:59+00:00</lastmod>
+        <loc>http://TracksApp.github.com/articles/comments/the-road-to-tracks-11/</loc>
+        <lastmod>2012-01-02T17:25:43+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/making-tracks-publicly-accessible/
+        </loc>
+        <lastmod>2012-01-02T17:25:56+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/articles/comments/lighttpd-rails-and-tracks/</loc>
+        <lastmod>2012-01-02T17:26:04+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/articles/comments/installing-tracks-on-dreamhost/</loc>
+        <lastmod>2012-01-02T17:12:30+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/fix-for-running-tracks-101-under-rails-0100/
+        </loc>
+        <lastmod>2012-01-02T17:12:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/articles/comments/movies-of-new-ajax-features/</loc>
+        <lastmod>2012-01-02T17:12:03+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/articles/comments/tracks-on-windows-xp-tutorial/</loc>
+        <lastmod>2012-01-02T17:12:59+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/starting-tracks-at-login-with-mac-os-x-tiger/
+        </loc>
+        <lastmod>2012-01-02T17:13:59+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/a-better-startup-item-for-mac-os-x-tiger/
+        </loc>
+        <lastmod>2012-01-02T17:14:30+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/emailing-upcoming-actions-to-yourself/
+        </loc>
+        <lastmod>2012-01-02T17:14:51+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/installing-tracks-using-locomotiv/
+        </loc>
+        <lastmod>2012-01-02T17:15:03+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/articles/comments/mongrel-and-windows/</loc>
+        <lastmod>2012-01-02T17:15:14+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/all-in-one-installation-for-windows/
+        </loc>
+        <lastmod>2012-01-02T17:15:25+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/linking-actions-and-yojimbo-items/
+        </loc>
+        <lastmod>2012-01-02T17:15:35+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/morphexchange-tracks-as-a-hosted-service/
+        </loc>
+        <lastmod>2012-01-02T17:15:47+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/articles/comments/making-yourself-comfortable-with-git-in-the-terminal/
+        </loc>
+        <lastmod>2012-01-02T17:15:59+00:00</lastmod>
     </url>
     <url>
         <loc>http://TracksApp.github.com/news/comments/happy-new-year/</loc>
         <lastmod>2012-01-01T17:00:37+00:00</lastmod>
     </url>
     <url>
-        <loc>http://TracksApp.github.com/articles/comments/my-article/</loc>
-        <lastmod>2012-01-01T19:17:55+00:00</lastmod>
-    </url>
-    <url>
         <loc>http://TracksApp.github.com/articles/archives/</loc>
-        <lastmod>2012-01-01T19:30:36+00:00</lastmod>
+        <lastmod>2012-01-02T17:26:04+00:00</lastmod>
     </url>
     <url>
         <loc>http://TracksApp.github.com/articles/</loc>
-        <lastmod>2012-01-01T19:29:59+00:00</lastmod>
+        <lastmod>2012-01-02T17:26:04+00:00</lastmod>
     </url>
     <url>
         <loc>http://TracksApp.github.com/</loc>
@@ -26,10 +102,10 @@
     </url>
     <url>
         <loc>http://TracksApp.github.com/news/archives/</loc>
-        <lastmod>2012-01-01T19:36:03+00:00</lastmod>
+        <lastmod>2012-01-02T17:26:04+00:00</lastmod>
     </url>
     <url>
         <loc>http://TracksApp.github.com/news/</loc>
-        <lastmod>2012-01-01T19:29:59+00:00</lastmod>
+        <lastmod>2012-01-02T17:26:04+00:00</lastmod>
     </url>
 </urlset>
