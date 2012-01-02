@@ -1,6 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://TracksApp.github.com/news/comments/new-wiki/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/version-using-rails-091/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/new-version-10-of-tracks-released/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/subversion-access-available/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://TracksApp.github.com/articles/comments/the-road-to-tracks-11/</loc>
         <lastmod>2012-01-02T17:25:43+00:00</lastmod>
     </url>
@@ -25,6 +41,18 @@
         <lastmod>2012-01-02T17:12:11+00:00</lastmod>
     </url>
     <url>
+        <loc>http://TracksApp.github.com/news/comments/tracks-102a-is-out/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/off-to-japan/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/tracks-on-trac/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://TracksApp.github.com/articles/comments/movies-of-new-ajax-features/</loc>
         <lastmod>2012-01-02T17:12:03+00:00</lastmod>
     </url>
@@ -39,10 +67,30 @@
         <lastmod>2012-01-02T17:13:59+00:00</lastmod>
     </url>
     <url>
+        <loc>http://TracksApp.github.com/news/comments/away-for-most-of-september/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
         <loc>
             http://TracksApp.github.com/articles/comments/a-better-startup-item-for-mac-os-x-tiger/
         </loc>
         <lastmod>2012-01-02T17:14:30+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/development-news/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/tracks-104-is-here-at-last/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/tracks-discuss-mailing-list/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/moderating-comments/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
     </url>
     <url>
         <loc>
@@ -51,10 +99,32 @@
         <lastmod>2012-01-02T17:14:51+00:00</lastmod>
     </url>
     <url>
+        <loc>http://TracksApp.github.com/news/comments/new-website-design/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/tracks-featured-in-a-podcast/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/listible/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/updated-migrations-files/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
         <loc>
             http://TracksApp.github.com/articles/comments/installing-tracks-using-locomotiv/
         </loc>
         <lastmod>2012-01-02T17:15:03+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/news/comments/new-installation-instructions-for-windows/
+        </loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://TracksApp.github.com/articles/comments/mongrel-and-windows/</loc>
@@ -62,9 +132,41 @@
     </url>
     <url>
         <loc>
+            http://TracksApp.github.com/news/comments/two-thumbs-up-for-tracks-from-labnotes/
+        </loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/expressionengine-discussion-forum/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/new-wiki1/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
             http://TracksApp.github.com/articles/comments/all-in-one-installation-for-windows/
         </loc>
         <lastmod>2012-01-02T17:15:25+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/new-wiki-pages-for-hosting-solutions/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/going-to-brazil/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/unscheduled-break/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/news/comments/support-tracks-by-signing-up-for-joyent-products/
+        </loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
     </url>
     <url>
         <loc>
@@ -74,9 +176,51 @@
     </url>
     <url>
         <loc>
+            http://TracksApp.github.com/news/comments/a-really-easy-installation-for-macos-x-users/
+        </loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/more-ways-to-support-tracks/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/bitnami-tracks-stack/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/new-screencast/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
             http://TracksApp.github.com/articles/comments/morphexchange-tracks-as-a-hosted-service/
         </loc>
         <lastmod>2012-01-02T17:15:47+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/comment-moderation/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/tracks-moves-to-github/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/bitnami-screencasts-in-spanish/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/pledgie-button/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/absent-for-august/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/tracks-gets-its-own-domain-name/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
     </url>
     <url>
         <loc>
@@ -85,16 +229,38 @@
         <lastmod>2012-01-02T17:15:59+00:00</lastmod>
     </url>
     <url>
-        <loc>http://TracksApp.github.com/news/comments/happy-new-year/</loc>
-        <lastmod>2012-01-01T17:00:37+00:00</lastmod>
+        <loc>http://TracksApp.github.com/news/comments/jumpbox-for-tracks/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/new-affiliate-links/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://TracksApp.github.com/news/comments/security-update-for-users-of-17x-and-20-branch-of-tracks/
+        </loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/tracks-20-release-candidate-2/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/tracks-2.0-is-out-now/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://TracksApp.github.com/news/comments/the-wiki-has-moved/</loc>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://TracksApp.github.com/articles/archives/</loc>
-        <lastmod>2012-01-02T17:26:04+00:00</lastmod>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://TracksApp.github.com/articles/</loc>
-        <lastmod>2012-01-02T17:26:04+00:00</lastmod>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://TracksApp.github.com/</loc>
@@ -102,10 +268,10 @@
     </url>
     <url>
         <loc>http://TracksApp.github.com/news/archives/</loc>
-        <lastmod>2012-01-02T17:26:04+00:00</lastmod>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://TracksApp.github.com/news/</loc>
-        <lastmod>2012-01-02T17:26:04+00:00</lastmod>
+        <lastmod>2012-01-02T18:23:11+00:00</lastmod>
     </url>
 </urlset>
