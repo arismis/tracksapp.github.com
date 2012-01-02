@@ -60,7 +60,11 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div id="archive-link">
+  <a href="/archives/downloads">See all posts in Downloads</a>
+</div>
+
+<div class="blog-index">
   
   
   
@@ -1209,13 +1213,6 @@ ActionController::Base.reload_dependencies = true
 
     </article>
   
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/2/">&larr; Older</a>
-    
-    <a href="/downloads/archives">Downloads Archives</a>
-    
-  </div>
 </div>
 <aside class="sidebar">
   
@@ -1266,8 +1263,8 @@ ActionController::Base.reload_dependencies = true
 
         github.showRepos({
             user: 'TracksApp',
-            count: 0,
-            skip_forks: true,
+            count: 5,
+            skip_forks: false,
             target: '#gh_repos'
         });
     });
