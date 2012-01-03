@@ -4,11 +4,11 @@
   <title><![CDATA[Tracks]]></title>
   <link href="http://TracksApp.github.com/tracks/atom.xml" rel="self"/>
   <link href="http://TracksApp.github.com/"/>
-  <updated>2012-01-03T15:12:02+00:00</updated>
+  <updated>2012-01-03T15:31:05+00:00</updated>
   <id>http://TracksApp.github.com/</id>
   <author>
     <name><![CDATA[TracksApp]]></name>
-    <email><![CDATA[info@getontracks.org]]></email>
+    <email><![CDATA[tracks@getontracks.org]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
