@@ -4,7 +4,7 @@
   <title><![CDATA[Tracks]]></title>
   <link href="http://www.getontracks.org/tracks/atom.xml" rel="self"/>
   <link href="http://www.getontracks.org/"/>
-  <updated>2012-01-04T15:03:09+00:00</updated>
+  <updated>2012-01-04T17:17:03+00:00</updated>
   <id>http://www.getontracks.org/</id>
   <author>
     <name><![CDATA[TracksApp]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Handing Over the Keys]]></title>
+    <link href="http://www.getontracks.org/news/comments/handing-over-the-keys/"/>
+    <updated>2012-01-04T16:54:00+00:00</updated>
+    <id>http://www.getontracks.org/news/comments/handing-over-the-keys</id>
+    <content type="html"><![CDATA[<p>If you have been following posts on the mailing list and on this site, you&#8217;ll know that I&#8217;ve been in the process of handing the Tracks project on for others in the community to take over. That day has come much closer now because I have finally finished the process of adapting the old site to be published on GitHub (using the excellent <a href="http://octopress.org/">Octopress</a>). It has taken a bit of time to get right, and there may be a few glitches here and there while the DNS propagates, but things should be working. Most of the site is how it was, except that the forum is now read only, as an archive of useful information. Some of the links in the forum may be broken (for example the search facility and member profiles) in the process of generating a static version, but the basic information should still be available.</p>
+
+<p>In due course I&#8217;ll transfer the domain name to someone else in the Tracks community, transfer the balance of the Pledgie donations, and I&#8217;ll have handed all the keys over.</p>
+
+<p>I&#8217;d like to take this opportunity for thanking all the Tracks users for their support over the years. Tracks is in great hands, and I&#8217;m sure it will continue from strength to strength in the future.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The wiki has moved]]></title>
@@ -335,25 +348,6 @@ git diff master..experiment &gt; my_feature.patch
 <p>Then attach my_feature.patch to a ticket.</p>
 <p>Or you can sign up for a free account on github and fork Tracks using the convenient button. You can then use the button to issue a pull request for your changes to be pulled into the main repository.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tracks 1.6]]></title>
-    <link href="http://www.getontracks.org/downloads/comments/tracks-16/"/>
-    <updated>2008-06-03T00:00:00+01:00</updated>
-    <id>http://www.getontracks.org/downloads/comments/tracks-16</id>
-    <content type="html"><![CDATA[<p>Version: Tracks 1.6</p>
-<p>I&#8217;m pleased to announce that Tracks 1.6 has been released.</p>
-<p>What&#8217;s new:</p>
-<ul>
-	<li>The included Rails version is updated to 2.0.2</li>
-	<li>You can now search the contents of todos, projects and notes (thanks, Jeffrey Gipson!)</li>
-	<li>Improvements to the mobile view, including a few iPhone specific improvements for those of you lucky enough to have an iPhone</li>
-	<li>A few bug fixes</li>
-</ul>
-<p>An important caveat is that OpenID support is broken in 1.6. The fix is a bit complicated because of changes to the ruby-openid gem, so we wanted to get 1.6 out before fixing it. If you depend on OpenID support, we&#8217;d advise waiting until the next release.</p>
-<p>There are no changes to the database, but quite a few changes to config/environment.rb.tmpl, so please copy the template file and merge your personalisations with it.</p>
-<p>Many thanks to Luke, Reinier and Jeffrey for their hard work on this release!</p>]]></content>
   </entry>
   
 </feed>
